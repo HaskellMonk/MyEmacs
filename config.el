@@ -202,19 +202,3 @@ This is particularly useful under Mac OSX, where GUI apps are not started from a
                 (concat
                   "-o ControlPath=/tmp/address@hidden:%%p "
                   "-o ControlMaster=auto -o ControlPersist=yes"))
-
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(safe-local-variable-values
-   (quote
-    ((company-clang-arguments "-I/home/mmath/Dropbox/Fun/CudaTracer/src/" "-I/home/mmath/Dropbox/Fun/Vecky/src/")))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
